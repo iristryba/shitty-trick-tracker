@@ -1,0 +1,17 @@
+.background-image-container {
+	height: 759px;
+	background-position: top;
+}
+
+@media (min-width: 1152px) {
+	.background-image-container {
+		height: 759px;
+		background-position: top;
+		background-size: 1152px 759px;
+		background-color: #66c0b3;
+	}
+}
+
+.section-half-background-image-container .image-column {
+	background-position: bottom;
+}
